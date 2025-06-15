@@ -1,0 +1,6 @@
+@NeuroTumAI.APIs_HostAddress = http://localhost:5029
+
+GET {{NeuroTumAI.APIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

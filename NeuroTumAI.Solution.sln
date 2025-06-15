@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroTumAI.APIs", "NeuroTumAI.APIs\NeuroTumAI.APIs.csproj", "{8663933E-DF5D-47C5-9EF9-9DB9D0FD1F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroTumAI.Core", "NeuroTumAI.Core\NeuroTumAI.Core.csproj", "{40DB0CF0-6C87-4795-911E-9D02F37C5218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroTumAI.Repository", "NeuroTumAI.Repository\NeuroTumAI.Repository.csproj", "{AF6B3DA3-C1E1-49BC-9895-82557A95D111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroTumAI.Service", "NeuroTumAI.Service\NeuroTumAI.Service.csproj", "{DC143E5C-77E9-4D5C-BF99-385FA764DD74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8663933E-DF5D-47C5-9EF9-9DB9D0FD1F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8663933E-DF5D-47C5-9EF9-9DB9D0FD1F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8663933E-DF5D-47C5-9EF9-9DB9D0FD1F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8663933E-DF5D-47C5-9EF9-9DB9D0FD1F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DB0CF0-6C87-4795-911E-9D02F37C5218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DB0CF0-6C87-4795-911E-9D02F37C5218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DB0CF0-6C87-4795-911E-9D02F37C5218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DB0CF0-6C87-4795-911E-9D02F37C5218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6B3DA3-C1E1-49BC-9895-82557A95D111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6B3DA3-C1E1-49BC-9895-82557A95D111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6B3DA3-C1E1-49BC-9895-82557A95D111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6B3DA3-C1E1-49BC-9895-82557A95D111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC143E5C-77E9-4D5C-BF99-385FA764DD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC143E5C-77E9-4D5C-BF99-385FA764DD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC143E5C-77E9-4D5C-BF99-385FA764DD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC143E5C-77E9-4D5C-BF99-385FA764DD74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A96B817-E975-4275-954E-BBA7961D9F36}
+	EndGlobalSection
+EndGlobal

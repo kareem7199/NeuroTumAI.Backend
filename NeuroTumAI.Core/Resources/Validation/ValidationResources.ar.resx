@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddressRequired" xml:space="preserve">
+    <value>العنوان مطلوب.</value>
+  </data>
+  <data name="ClinicIdRequired" xml:space="preserve">
+    <value>معرف العيادة مطلوب.</value>
+  </data>
+  <data name="CommentLength" xml:space="preserve">
+    <value>لا يمكن أن يتجاوز التعليق 1000 حرف.</value>
+  </data>
+  <data name="CommentRequired" xml:space="preserve">
+    <value>التعليق مطلوب.</value>
+  </data>
+  <data name="ContentLength" xml:space="preserve">
+    <value>يجب أن يكون المحتوى بين 10 و 5000 حرف.</value>
+  </data>
+  <data name="ContentRequired" xml:space="preserve">
+    <value>المحتوى مطلوب.</value>
+  </data>
+  <data name="DateRequired" xml:space="preserve">
+    <value>مطلوب اختيار التاريخ.</value>
+  </data>
+  <data name="DayOfWeekRequired" xml:space="preserve">
+    <value>يجب تحديد يوم الأسبوع.</value>
+  </data>
+  <data name="DetectionClass_MinLength" xml:space="preserve">
+    <value>يجب ألا يقل عدد أحرف فئة الاكتشاف عن حرف واحد.</value>
+  </data>
+  <data name="DetectionClass_Required" xml:space="preserve">
+    <value>فئة الاكتشاف مطلوبة.</value>
+  </data>
+  <data name="dob_invalid" xml:space="preserve">
+    <value>تنسيق التاريخ غير صالح.</value>
+  </data>
+  <data name="dob_required" xml:space="preserve">
+    <value>تاريخ الميلاد مطلوب.</value>
+  </data>
+  <data name="DoctorIdRequired" xml:space="preserve">
+    <value>رقم الطبيب مطلوب.</value>
+  </data>
+  <data name="email_invalid" xml:space="preserve">
+    <value>تنسيق البريد الإلكتروني غير صالح.</value>
+  </data>
+  <data name="email_required" xml:space="preserve">
+    <value>البريد الإلكتروني مطلوب.</value>
+  </data>
+  <data name="Findings_MinLength" xml:space="preserve">
+    <value>يجب ألا يقل عدد أحرف النتائج عن حرف واحد.</value>
+  </data>
+  <data name="Findings_Required" xml:space="preserve">
+    <value>الحقول الخاصة بالنتائج مطلوبة.</value>
+  </data>
+  <data name="fullName_maxLength" xml:space="preserve">
+    <value>يجب ألا يتجاوز الاسم الكامل 50 حرفًا.</value>
+  </data>
+  <data name="fullName_required" xml:space="preserve">
+    <value>الاسم الكامل مطلوب.</value>
+  </data>
+  <data name="fullName_twoWords" xml:space="preserve">
+    <value>يجب أن يحتوي الاسم الكامل على حروف فقط ومسافة واحدة بين الاسم الأول والأخير.</value>
+  </data>
+  <data name="gender_invalid" xml:space="preserve">
+    <value>يجب أن يكون الجنس ذكر أو أنثى.</value>
+  </data>
+  <data name="gender_required" xml:space="preserve">
+    <value>الجنس مطلوب.</value>
+  </data>
+  <data name="latitude_range" xml:space="preserve">
+    <value>يجب أن يكون خط العرض بين -90 و 90.</value>
+  </data>
+  <data name="LicenseDocumentBackRequired" xml:space="preserve">
+    <value>يجب رفع صورة خلفية لمستند التصريح.</value>
+  </data>
+  <data name="LicenseDocumentFrontRequired" xml:space="preserve">
+    <value>يجب رفع صورة أمامية لمستند التصريح.</value>
+  </data>
+  <data name="LicenseDocumentRequired" xml:space="preserve">
+    <value>يجب رفع صورة لمستند التصريح.</value>
+  </data>
+  <data name="longitude_range" xml:space="preserve">
+    <value>يجب أن يكون خط الطول بين -180 و 180.</value>
+  </data>
+  <data name="MessageTooLong" xml:space="preserve">
+    <value>يجب ألا تتجاوز الرسالة 1000 حرف.</value>
+  </data>
+  <data name="password_complexity" xml:space="preserve">
+    <value>يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل، وحرف صغير، ورقم، وحرف خاص.</value>
+  </data>
+  <data name="password_minLength" xml:space="preserve">
+    <value>يجب أن تكون كلمة المرور 6 أحرف على الأقل.</value>
+  </data>
+  <data name="password_required" xml:space="preserve">
+    <value>كلمة المرور مطلوبة.</value>
+  </data>
+  <data name="PhoneNumberRequired" xml:space="preserve">
+    <value>رقم الهاتف مطلوب.</value>
+  </data>
+  <data name="ProfilePictureRequired" xml:space="preserve">
+    <value>الصورة الشخصية مطلوبة.</value>
+  </data>
+  <data name="Reasoning_MinLength" xml:space="preserve">
+    <value>يجب ألا يقل عدد أحرف التفسير عن حرف واحد.</value>
+  </data>
+  <data name="Reasoning_Required" xml:space="preserve">
+    <value>الحقول الخاصة بالتفسير مطلوبة.</value>
+  </data>
+  <data name="RequiredMessage" xml:space="preserve">
+    <value>الرجاء إدخال الرسالة.</value>
+  </data>
+  <data name="SlotIdRequired" xml:space="preserve">
+    <value>مطلوب اختيار الموعد.</value>
+  </data>
+  <data name="StarsRange" xml:space="preserve">
+    <value>يجب أن يكون التقييم بين 1 و 5.</value>
+  </data>
+  <data name="StarsRequired" xml:space="preserve">
+    <value>حقل التقييم مطلوب.</value>
+  </data>
+  <data name="StartTimeRange" xml:space="preserve">
+    <value>يجب أن يكون الوقت الابتدائي بين 00:00 و 23:59.</value>
+  </data>
+  <data name="StartTimeRequired" xml:space="preserve">
+    <value>الوقت الابتدائي مطلوب.</value>
+  </data>
+  <data name="TitleLength" xml:space="preserve">
+    <value>يجب أن يكون العنوان بين 3 و 100 حرف.</value>
+  </data>
+  <data name="TitleRequired" xml:space="preserve">
+    <value>العنوان مطلوب.</value>
+  </data>
+  <data name="TokenInvalid" xml:space="preserve">
+    <value>يجب أن يتكون الرمز من 6 أرقام.</value>
+  </data>
+  <data name="TokenRequired" xml:space="preserve">
+    <value>الرمز مطلوب.</value>
+  </data>
+  <data name="UniqueEmail" xml:space="preserve">
+    <value>هذا البريد الإلكتروني مستخدم بالفعل.</value>
+  </data>
+  <data name="UsernameTaken" xml:space="preserve">
+    <value>اسم المستخدم محجوز بالفعل.</value>
+  </data>
+  <data name="username_maxLength" xml:space="preserve">
+    <value>يجب ألا يتجاوز اسم المستخدم 20 حرفًا.</value>
+  </data>
+  <data name="username_minLength" xml:space="preserve">
+    <value>يجب أن يتكون اسم المستخدم من 3 أحرف على الأقل.</value>
+  </data>
+  <data name="username_required" xml:space="preserve">
+    <value>اسم المستخدم مطلوب.</value>
+  </data>
+</root>
