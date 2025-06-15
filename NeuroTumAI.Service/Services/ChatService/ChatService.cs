@@ -86,9 +86,9 @@ namespace NeuroTumAI.Service.Services.ChatService
 
 			await DeliverMessageAsync(sendMessageDto.ReceiverId, _mapper.Map<MessageToReturnDto>(newMessage));
 
-			var senderName = conversation.FirstUserId == userId ? conversation.FirstUser.FullName : conversation.SecondUser.FullName;
+			var sender = await _userManager.FindByIdAsync(userId);
 
-			await _notificationService.SendMessageNotificationAsync(sendMessageDto.ReceiverId, sendMessageDto.Content, senderName);
+			await _notificationService.SendMessageNotificationAsync(sendMessageDto.ReceiverId, sendMessageDto.Content, sender!.FullName);
 
 			return newMessage;
 		}
